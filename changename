@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -e somefile ] 
+then mv somefile rename
+else echo the file is not exist
+fi
